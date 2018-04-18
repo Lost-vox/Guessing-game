@@ -1,4 +1,6 @@
 import random
 theNumber = random
 
-userInput = ""
+while True:
+  userInput = input("Guess a number?")
+  
