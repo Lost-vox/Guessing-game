@@ -17,4 +17,11 @@ while guesses < 5:
   
   if guess < theNumeber:
     print('Thats too low')
+  
+  if guess > theNumber:
+    print('Thats too high')
     
+  if guess == theNumber:
+    break
+
+  
