@@ -14,14 +14,20 @@ while guesses < 5:
   guess = int(guess)
   
   if guess < theNumeber:
-    print('Thats too low')
+    print('Well your wrong thats too low')
     guesses += 1
   
   if guess > theNumber:
-    print('Thats too high')
+    print('Well your wrong thats too high')
     guesses += 1
     
   if guess == theNumber:
     break
 
+ if guess == theNumber:
+  guesses = str(gusses)
+  print('Great you won with,' + str(guesses) + 'the number was,' + theNumber)
   
+ if guess != theNumber:
+  theNumber = str(theNumber)
+  print('Sorry the number is actually,' + theNumber)
