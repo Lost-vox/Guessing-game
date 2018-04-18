@@ -13,13 +13,13 @@ while guesses < 5:
   guess = input()
   guess = int(guess)
   
-  guesses = guesses + 1
-  
   if guess < theNumeber:
     print('Thats too low')
+    guesses += 1
   
   if guess > theNumber:
     print('Thats too high')
+    guesses += 1
     
   if guess == theNumber:
     break
