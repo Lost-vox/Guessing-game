@@ -1,3 +1,3 @@
 import random
-theNumber = random
+guesses = 0
 
