@@ -1,3 +1,3 @@
-from random import random
+import random
 theNumber = random
 
