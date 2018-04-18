@@ -1,2 +1,3 @@
-PI = 3
-EAT MY PIS LOSER
+from random import random
+theNumber = random
+
