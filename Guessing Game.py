@@ -1,3 +1,4 @@
 import random
-guesses = 0
+theNumber = random
 
+userInput = ""
