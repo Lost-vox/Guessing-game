@@ -16,4 +16,5 @@ while guesses < 5:
   guesses = guesses + 1
   
   if guess < theNumeber:
-    print(
+    print('Thats too low')
+    
