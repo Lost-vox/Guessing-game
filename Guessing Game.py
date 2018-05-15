@@ -31,3 +31,5 @@ while guesses < 5:
  if guess != theNumber:
   theNumber = str(theNumber)
   print('Sorry the number is actually,' + theNumber)
+
+ #Change guesses to 5 
